@@ -19,7 +19,7 @@ export const projects = {
           title: "Exterior Render",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1kABSz7xKrO4ewW0vDpaIfxspnJD1kfbi&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1lHYOBW7y40FCF4GQlTSJ8OovDdijBYkK&sz=w1000"
         },
         parti: {
           title: "Parti Diagram",
