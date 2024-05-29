@@ -1,35 +1,33 @@
 <template>
   <v-container class="hel-neue fill-height h-75">
     <v-row class="px-12" no-gutters align="center" justify="center">
-      <v-col class="py-sm-12" md="4" sm="12" xs="12">
+      <v-col class="py-12" md="4" cols="12">
         <div>
-          <v-img
-            :aspect-ratio="1"
-            class="bg-white"
-            src="@/assets/images/5394-15.jpg"
-            width="500"
-            cover
-            transition="fade-transition"
-          />
+          <v-img :aspect-ratio="1" class="bg-white" src="@/assets/images/5394-15.jpg" cover
+            transition="fade-transition" />
           <span class="text-caption hel-neue-light">MoMA 2023, Expired Lucky 35mm</span>
         </div>
       </v-col>
-      <v-col md="8" sm="12" xs="12">
+      <v-col md="8" cols="12">
         <v-row justify="center">
-          <v-col md="8" sm="12" xs="12">
-            My name is Jordan Wells, and I am currently entering the second year of the Track 3 Master of Architecture program at North Carolina State University. 
+          <v-col md="8" cols="12">
+            My name is Jordan Wells, and I am currently entering the second year of the Track 3 Master of Architecture
+            program at North Carolina State University.
             I hold a Bachelors degree in English–Literature, where I focused on serialized storytelling.
           </v-col>
         </v-row>
         <v-row justify="center">
-          <v-col md="8" sm="12" xs="12">
-            During a not-so-brief hiatus from college, I earned a professional certificate in Software Development from UNC-Chapel Hill. 
-            I worked as a Front-End Developer for a couple of start-ups, a Fortune 500 company, and the university I call home. 
-            While working in technology, I gained a deeper understanding of design systems and developed as a software engineer and, most importantly, a designer.
+          <v-col md="8" cols="12">
+            During a not-so-brief hiatus from college, I earned a professional certificate in Software Development from
+            UNC-Chapel Hill.
+            I worked as a Front-End Developer for a couple of start-ups, a Fortune 500 company, and the university I call
+            home.
+            While working in technology, I gained a deeper understanding of design systems and developed as a software
+            engineer and, most importantly, a designer.
           </v-col>
         </v-row>
         <v-row justify="center">
-          <v-col md="8" sm="12" xs="12">
+          <v-col md="8" cols="12">
             I am currently open to short-term contracts.
           </v-col>
         </v-row>
@@ -50,11 +48,11 @@
 </template>
 
 <script setup>
-  //
+//
 </script>
 
 <style>
-a { 
-   color: black !important;
+a {
+  color: black !important;
 }
 </style>

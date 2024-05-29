@@ -1,6 +1,5 @@
 export const projects = {
-  art_src:
-    "https://drive.google.com/thumbnail?id=1DA4GC93l8GXuOYwmCF7SrD-DWw1iIaR-&sz=w1000",
+  art_src: "https://live.staticflickr.com/65535/53752852127_4a109b76fe_o.png",
   projects: [
     {
       title: "CIRC",
@@ -14,17 +13,23 @@ export const projects = {
         main: {
           title: "Logo",
           src:
-            "https://drive.google.com/thumbnail?id=1IrHI4p084ADb_uFl69QK3WB2sZNcVFhH&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1IrHI4p084ADb_uFl69QK3WB2sZNcVFhH&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754093654_ac4a9922d8_o.png"
         },
         page_1: {
           title: "Cost of Clothing Page",
           src:
-            "https://drive.google.com/thumbnail?id=1GFF-kqRdxF0YmuhXDwPv1agNxcYHG-U-&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1GFF-kqRdxF0YmuhXDwPv1agNxcYHG-U-&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53752852382_cbbf8c2be0_o.png"
         },
         page_2: {
           title: "About Us Page",
           src:
-            "https://drive.google.com/thumbnail?id=134TjZa1Z_o7GpqyQ5dpp6wHGtXQcFVH2&sz=w1000"
+            "https://drive.google.com/thumbnail?id=134TjZa1Z_o7GpqyQ5dpp6wHGtXQcFVH2&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754093774_095a0ed68a_o.png"
         }
       },
       route: "/software/circ"
@@ -41,17 +46,23 @@ export const projects = {
         main: {
           title: "Logo",
           src:
-            "https://drive.google.com/thumbnail?id=1m8YgtYNagQiwf5kl9aOqHzR8-qCz1Hcn&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1m8YgtYNagQiwf5kl9aOqHzR8-qCz1Hcn&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753766211_2ca784c732_o.png"
         },
         page_1: {
           title: "Main Page",
           src:
-            "https://drive.google.com/thumbnail?id=1C1AFExPspxSHMa2CPRlBPTCYRuOscwSV&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1C1AFExPspxSHMa2CPRlBPTCYRuOscwSV&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753766276_174c4db236_o.png"
         },
         page_2: {
           title: "Record Inventory",
           src:
-            "https://drive.google.com/thumbnail?id=1GyppBGpI9Z4SlQEmb2dr7huLaspkT1zj&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1GyppBGpI9Z4SlQEmb2dr7huLaspkT1zj&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754183420_ca8754055c_o.png"
         }
       },
       route: "/software/nice-price-books-and-records"
@@ -68,22 +79,30 @@ export const projects = {
         main: {
           title: "Logo",
           src:
-            "https://drive.google.com/thumbnail?id=106RW7O7gjCCIEr1YSoyJt9-Cy4Txz455&sz=w1000"
+            "https://drive.google.com/thumbnail?id=106RW7O7gjCCIEr1YSoyJt9-Cy4Txz455&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754183540_c6b137939d_o.png"
         },
         page_1: {
           title: "Home Page",
           src:
-            "https://drive.google.com/thumbnail?id=1iWto8FT1exVn6rF-BPQ6voLxiVal1bWu&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1iWto8FT1exVn6rF-BPQ6voLxiVal1bWu&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53752853132_a719ae0962_o.png"
         },
         page_2: {
           title: "Music",
           src:
-            "https://drive.google.com/thumbnail?id=1BakISA3lpvHfTIZzGPjKnDYOcpGb1Nv5&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1BakISA3lpvHfTIZzGPjKnDYOcpGb1Nv5&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53752853227_75e29d73f9_o.png"
         },
         page_3: {
           title: "Tour",
           src:
-            "https://drive.google.com/thumbnail?id=1nC4SLiiHHOj1_qQtbtC_sBtCGlGd3MIZ&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1nC4SLiiHHOj1_qQtbtC_sBtCGlGd3MIZ&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53752853077_1d6e39ca4e_o.png"
         }
       },
       route: "/software/torres"
@@ -99,28 +118,17 @@ export const projects = {
         main: {
           title: "Logo",
           src:
-            "https://drive.google.com/thumbnail?id=1A2UuEqNwjRlW9rvfOuinGMXv0Dnj-1Oj&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1A2UuEqNwjRlW9rvfOuinGMXv0Dnj-1Oj&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753766001_25bc84d121_o.png"
         },
-        // main_section: {
-        //   title: "Main Section",
-        //   src:
-        //     "https://drive.google.com/thumbnail?id=1u2OQFBxmA_ZdAAOZSFFPxSGVoDT7HaiX&sz=w1000"
-        // },
         page_1: {
           title: "Full Page",
           src:
-            "https://drive.google.com/thumbnail?id=1-noFBhpZB-ijxdQdpnlY0c6Ug0dIMF96&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1-noFBhpZB-ijxdQdpnlY0c6Ug0dIMF96&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753766201_cecfae536a_o.png"
         }
-        // eco_map: {
-        //   title: "Google Map",
-        //   src:
-        //     "https://drive.google.com/thumbnail?id=17jk8zec52nqrmiSTvoY8gxzg8A-9dULz&sz=w1000"
-        // },
-        // eco_footer: {
-        //   title: "Footer",
-        //   src:
-        //     "https://drive.google.com/thumbnail?id=1Scv_Yj72AhgaqoJBItYEi64n9oRCAb2U-9dULz&sz=w1000"
-        // }
       },
       route: "/software/ecology-coffee"
     },
@@ -134,13 +142,17 @@ export const projects = {
       images: {
         main: {
           src:
-            "https://drive.google.com/thumbnail?id=1brr5Z4TxsCwWJQEJs7HhaLS6NSCo8khB&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1brr5Z4TxsCwWJQEJs7HhaLS6NSCo8khB&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753763176_6972dbacda_o.png"
         },
         site: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=19Xh-m3AA2hBUf8i3EpgJeSrtnIe4sF39&sz=w1000"
+            "https://drive.google.com/thumbnail?id=19Xh-m3AA2hBUf8i3EpgJeSrtnIe4sF39&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754091199_76f675f9e0_o.png"
         }
       },
       route: "/software/homage-to-the-square-generator"

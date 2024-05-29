@@ -1,6 +1,6 @@
 export const projects = {
   header_src:
-    "https://drive.google.com/thumbnail?id=19Hqo8VvGFFl2mcn8QaPbEV9ydUvhxBS-&sz=w1000",
+    "https://live.staticflickr.com/65535/53753955318_c638b38483_o.png",
   projects: [
     {
       title: "People's Coffee",
@@ -13,43 +13,49 @@ export const projects = {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1wctRW2wlcpcjruXSReZ6p7wKbIwm1I68&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1wctRW2wlcpcjruXSReZ6p7wKbIwm1I68&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754182720_a0fa63e02e_o.png"
         },
         main: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1xGTG3Qbb3n7886m45uJGZAHvBt5AWIfi&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1xGTG3Qbb3n7886m45uJGZAHvBt5AWIfi&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754093429_a5f46d428d_o.png"
         },
         shelves: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1tuOwZssfMYDYG5oJjGTfp8xh5-IvWg7c&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1tuOwZssfMYDYG5oJjGTfp8xh5-IvWg7c&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53753765091_08d31409b7_o.png"
         },
         mugs_close: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1ioHg24_iw6UgmGfGUkW_1JgSs-sjooiJ&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1ioHg24_iw6UgmGfGUkW_1JgSs-sjooiJ&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53752852052_8cdb38574d_o.png"
         },
         mugs_far: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=1Ix13_tXkn5zBDG7i9bXoDUsVTuJVC9MR&sz=w1000"
-        },
-        esp_service: {
-          title: "",
-          desc: "",
-          src:
-            "https://drive.google.com/thumbnail?id=1xGTG3Qbb3n7886m45uJGZAHvBt5AWIfi&sz=w1000"
+            "https://drive.google.com/thumbnail?id=1Ix13_tXkn5zBDG7i9bXoDUsVTuJVC9MR&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754093384_735b34c478_o.png"
         },
         mural: {
           title: "",
           desc: "",
           src:
-            "https://drive.google.com/thumbnail?id=154yt4g28K2oJ6ruuiJx2fS07-JI8_j-a&sz=w1000"
+            "https://drive.google.com/thumbnail?id=154yt4g28K2oJ6ruuiJx2fS07-JI8_j-a&sz=w1000",
+          flickr:
+            "https://live.staticflickr.com/65535/53754182745_0150b93631_o.png"
         }
       },
       route: "/misc/peoples-coffee"
@@ -61,22 +67,22 @@ export const projects = {
         "While their graphic designer was on maternity leave, I worked with the marketing team to produce the Food Bank's 2023 Impact Report. I worked with existing templates to update print assets with images from the prior fiscal year and updated the layouts according to some new programs and events they wanted to highlight.",
       images: {
         main: {
-          src:
-            "https://drive.google.com/thumbnail?id=12OFkkQwbrQ-lGQFKJLopCNTIEgkwzgVb&sz=w1000"
+          flickr:
+            "https://live.staticflickr.com/65535/53752928382_1ffcab570b_o.jpg"
         },
         pages: [
-          "https://drive.google.com/thumbnail?id=1a3d71DF1g_bZSXUWrbFQgUP9GkGd68-z&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1xqOFvb3Ag-1bCxyrGwJ3ZsGIW865GhD_&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1eYNlx0WPHOgjGw_9PmGuy18R0ulcye_2&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1axE-NsuB2c6TJpFejlhU8YTaMBKalFrg&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1otPfGXerWhim_QebND2a1qso7XRhDJSm&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1nvMRZyCk8k_0fHc0XI9xOWE-kR7S1Mpt&sz=w1000",
-          "https://drive.google.com/thumbnail?id=11uonDEWYEytWyURpwITts_Jihhwlf2Ab&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1bhKzb3DBeLKc011YLL62mJTSxOVLCa4g&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1TJfXzzUDtQFgvSQU0IkEG6IYwITurrPh&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1j8puRDxXLchTpfTiB50jGjwtVISk46co&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1OEYDs-7cjeSxdWny9_b-kyn8w9_6zpD9&sz=w1000",
-          "https://drive.google.com/thumbnail?id=1qCStQR_olVeUW9Hv2CqOilWyR2w0yl94&sz=w1000"
+          "https://live.staticflickr.com/65535/53754181650_00ef52ae20_o.png",
+          "https://live.staticflickr.com/65535/53754181630_04e0b8eeb3_o.png",
+          "https://live.staticflickr.com/65535/53753764311_d0bea1b58a_o.png",
+          "https://live.staticflickr.com/65535/53753956423_9cf5aebc7b_o.png",
+          "https://live.staticflickr.com/65535/53753764316_bcf57a0103_o.png",
+          "https://live.staticflickr.com/65535/53752850857_17626995f4_o.png",
+          "https://live.staticflickr.com/65535/53753956448_96423792e2_o.png",
+          "https://live.staticflickr.com/65535/53754181575_5781d67a84_o.png",
+          "https://live.staticflickr.com/65535/53753956378_921e441a03_o.png",
+          "https://live.staticflickr.com/65535/53754181565_161dee0279_o.png",
+          "https://live.staticflickr.com/65535/53754092344_c7fb729821_o.png",
+          "https://live.staticflickr.com/65535/53753956398_592580915b_o.png"
         ]
       },
       route: "/misc/nc-food-bank"

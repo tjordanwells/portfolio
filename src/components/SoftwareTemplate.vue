@@ -6,10 +6,10 @@
             </v-col>
         </v-row>
         <v-row>
-            <v-col xs="12" sm="12" md="6">
+            <v-col cols="12" md="6">
                 <v-row>
                     <v-col cols="12">
-                        <v-img class="mx-auto" :src="project.images?.main?.src" width="30%" cover :aspect-ratio="1" />
+                        <v-img class="mx-auto" :src="project.images?.main?.flickr" width="30%" cover :aspect-ratio="1" />
                     </v-col>
                 </v-row>
                 <v-row class="text-center" justify="center">
@@ -36,7 +36,7 @@
                     <template v-for="(image, i) in project.images">
                         <v-carousel-item v-if="i !== 'main'" :key="i" :value="i" height="100%" width="100%">
                             <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                <v-img :src="image?.src" width="100%" height="100%" />
+                                <v-img :src="image?.flickr" width="100%" height="100%" />
                             </v-sheet>
                         </v-carousel-item>
                     </template>

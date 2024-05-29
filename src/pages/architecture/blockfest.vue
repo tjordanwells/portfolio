@@ -1,14 +1,15 @@
 <template>
     <v-container class="py-16">
-         <v-row>
+        <v-row>
             <v-col>
-                <v-btn class="hel-neue-light" variant="plain" :ripple="false" to="/architecture">Back to Architecture</v-btn>
+                <v-btn class="hel-neue-light" variant="plain" :ripple="false" to="/architecture">Back to
+                    Architecture</v-btn>
             </v-col>
         </v-row>
         <v-row class="py-16 text-h3 hel-neue-light text-center">
-                <v-col cols="12">
-                    BLOCKFEST
-                </v-col>
+            <v-col cols="12">
+                BLOCKFEST
+            </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once class="mb-8" justify="center">
             <v-col cols="12" md="6">
@@ -19,46 +20,31 @@
             <v-col cols="12" md="6">
                 <v-row>
                     <v-col class="d-flex align-end justify-center" cols="1">
-                        <v-icon v-show="slide_boards !== 0" class="icon-btn" icon="mdi-arrow-left" size="large" @click="slide_boards = Math.max(slide_boards - 1, 0)" />
+                        <v-icon v-show="slide_boards !== 0" class="icon-btn" icon="mdi-arrow-left" size="large"
+                            @click="slide_boards = Math.max(slide_boards - 1, 0)" />
                     </v-col>
                     <v-col>
-                        <v-carousel
-                            height="400px"
-                            hide-delimiters
-                            :show-arrows="false"
-                            v-model="slide_boards"
-                        >
+                        <v-carousel height="400px" hide-delimiters :show-arrows="false" v-model="slide_boards">
                             <v-carousel-item :value="0" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.board_1"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.board_1?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                             <v-carousel-item :value="1" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.board_2"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.board_2?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                             <v-carousel-item :value="2" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.board_3"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.board_3?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                         </v-carousel>
                     </v-col>
                     <v-col class="d-flex align-end justify-center" cols="1">
-                        <v-icon v-show="slide_boards < 2" class="icon-btn" icon="mdi-arrow-right" size="large" @click="slide_boards = Math.min(slide_boards + 1, 2)" />
+                        <v-icon v-show="slide_boards < 2" class="icon-btn" icon="mdi-arrow-right" size="large"
+                            @click="slide_boards = Math.min(slide_boards + 1, 2)" />
                     </v-col>
                 </v-row>
             </v-col>
@@ -68,48 +54,26 @@
                         <v-icon v-show="slide_models !== 0" class="icon-btn" icon="mdi-arrow-left" size="large" @click="slide_models = Math.max(slide_models - 1, 0)" />
                     </v-col> -->
                     <v-col>
-                        <v-carousel
-                            height="400px"
-                            hide-delimiters
-                            :show-arrows="false"
-                            v-model="slide_models"
-                            cycle
-                            :interval="4000"
-                        >
+                        <v-carousel height="400px" hide-delimiters :show-arrows="false" v-model="slide_models" cycle
+                            :interval="4000">
                             <v-carousel-item :value="0" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.main"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.main?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                             <v-carousel-item :value="1" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.model_2"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.model_2?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                             <v-carousel-item :value="2" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.model_3"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.model_3?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                             <v-carousel-item :value="3" cover>
                                 <v-sheet class="d-flex fill-height justify-center align-center" height="100%">
-                                    <v-img
-                                        :src="blockfest_obj?.images?.model_4"
-                                        width="100%"
-                                        height="100%"
-                                    />
+                                    <v-img :src="blockfest_obj?.images?.model_4?.flickr" width="100%" height="100%" />
                                 </v-sheet>
                             </v-carousel-item>
                         </v-carousel>
@@ -129,9 +93,8 @@ import { reactive, toRefs } from 'vue'
 import { projects } from '@/data/architecture';
 
 export default {
-    setup () {
+    setup() {
         const blockfest_obj = projects.projects[3]
-
         const desc_array = blockfest_obj.desc.split('>')
 
         const state = reactive({

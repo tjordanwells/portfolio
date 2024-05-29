@@ -21,24 +21,27 @@
         </v-row>
         <v-row v-motion-fade-visible-once class="mb-16">
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="nature_land_light?.images?.parti_sketch?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="700"
+                    :src="nature_land_light?.images?.parti_sketch?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.parti_sketch?.title }}</div>
             </v-col>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="nature_land_light?.images?.site?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="nature_land_light?.images?.site?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.site?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="nature_land_light?.images?.ground_plan?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="800"
+                    :src="nature_land_light?.images?.ground_plan?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.ground_plan?.title }}</div>
             </v-col>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="nature_land_light?.images?.axonometric?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="800"
+                    :src="nature_land_light?.images?.axonometric?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.axonometric?.title }}</div>
             </v-col>
@@ -46,7 +49,7 @@
         <v-row v-motion-fade-visible-once align="center">
             <v-col cols="8">
                 <v-img class="mx-auto" aspect-ratio="1" height="100%"
-                    :src="nature_land_light?.images?.section_persp?.src" />
+                    :src="nature_land_light?.images?.section_persp?.flickr" />
             </v-col>
             <v-col cols="4">
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
@@ -55,21 +58,21 @@
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.int_1?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.int_1?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.int_1?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.int_2?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.int_2?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.int_2?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.main?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="nature_land_light?.images?.main?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     nature_land_light?.images?.main?.title }}</div>
 

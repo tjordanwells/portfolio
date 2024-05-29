@@ -28,7 +28,7 @@
                             <template v-for="(image, i) in pc?.images" :key="i">
                                 <v-carousel-item :value="i">
                                     <v-sheet class="d-flex fill-height justify-center align-center">
-                                        <v-img :src="image?.src" width="100%" height="100%" />
+                                        <v-img :src="image?.flickr" width="100%" height="100%" />
                                     </v-sheet>
                                 </v-carousel-item>
                             </template>

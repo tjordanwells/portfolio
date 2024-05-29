@@ -21,52 +21,52 @@
         </v-row>
         <v-row v-motion-fade-visible-once class="mb-16">
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="urban_ext?.images?.parti?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="urban_ext?.images?.parti?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.parti?.title }}</div>
             </v-col>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="urban_ext?.images?.context?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="700" :src="urban_ext?.images?.context?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.context?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.site?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.site?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center mt-16">{{
                     urban_ext?.images?.site?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="urban_ext?.images?.level_2?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="urban_ext?.images?.level_2?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.level_2?.title }}</div>
             </v-col>
             <v-col cols="12" md="6">
-                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="urban_ext?.images?.level_3?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="800" :src="urban_ext?.images?.level_3?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.level_3?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.main?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.main?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.main?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.exterior?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.exterior?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.exterior?.title }}</div>
             </v-col>
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_1?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_1?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.model_1?.title }}</div>
 
@@ -74,7 +74,7 @@
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_2?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_2?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.model_2?.title }}</div>
 
@@ -82,7 +82,7 @@
         </v-row>
         <v-row v-motion-fade-visible-once>
             <v-col cols="12">
-                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_3?.src" />
+                <v-img class="mx-auto" aspect-ratio="1" :width="1000" :src="urban_ext?.images?.model_3?.flickr" />
                 <div class="text-caption text-uppercase hel-neue-light text-center">{{
                     urban_ext?.images?.model_3?.title }}</div>
 
