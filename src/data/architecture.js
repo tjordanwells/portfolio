@@ -377,20 +377,39 @@ export const projects = {
           flickr:
             "https://live.staticflickr.com/65535/53753620544_cccdbf7dd0_o.png"
         }
-        // dix_video: {
-        //   title: "",
-        //   desc: "",
-        //   src:
-        //     "https://drive.google.com/thumbnail?id=1tRb8Iko3E6ILQtTS5bDZF-imKkYwrwe9&sz=w1000"
-        // },
-        //   dix_gif: {
-        //     title: "",
-        //     desc: "",
-        //     src:
-        //       "https://drive.google.com/thumbnail?id=1PL67UeDg5DeJu4MVf-3R8yibzcKR-TNB&sz=w1000"
-        //   }
       },
       route: "/architecture/map-diagrams"
+    },
+    {
+      title: "Governor Morehead School",
+      role: "Chime Fabrication",
+      class: "NCSU Freedom by Design",
+      desc:
+        "I joined the North Carolina State University chapter of Freedom by Design during my first year in the Track 3 M. Arch program. The group's project at The Governor Morehead School for the Blind was in the final stages. I worked alongside another M. Arch student, Devesh Balakrishnan, to fabricate, tune, and install a set of chimes, one of the centerpieces of the sensory installations in the outdoor learning center.",
+      images: {
+        main: {
+          title: "Outdoor Learning Center Render",
+          desc: "Chimes and the Sensory Wall",
+          src: "",
+          flickr:
+            "https://live.staticflickr.com/65535/53762695418_b908e149e0_o.jpg"
+        },
+        photo_1: {
+          title: "Chimes and Sensory Wall",
+          desc: "",
+          src: "",
+          flickr:
+            "https://live.staticflickr.com/65535/53762695428_50fed63856_o.jpg"
+        },
+        photo_2: {
+          title: "Chimes and Swings",
+          desc: "",
+          src: "",
+          flickr:
+            "https://live.staticflickr.com/65535/53762490901_30f7d2d851_o.jpg"
+        }
+      },
+      route: "/architecture/freedom-by-design"
     }
   ]
 };
